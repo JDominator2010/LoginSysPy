@@ -51,13 +51,8 @@ if (LoginOrCreate.__contains__("l") or LoginOrCreate.__contains__("L")):
 
 
 
-if loggedIn == True:
-    print("Logged In!")
-    openLoggedInFile = input("Open Logged In File Or Run It? (Open Or Run): ")
-    if openLoggedInFile.__contains__("Open") or openLoggedInFile.__contains__("open"):
-        webbrowser.open("file:///Users/norber/VSCode/LogInSysFolder/LoggedIn.py")
-    elif openLoggedInFile.__contains__("Run") or openLoggedInFile.__contains__("run"):
-        os.system('/usr/bin/python3 /Users/norber/VSCode/LogInSysFolder/LoggedIn.py')
+if loggedIn == true:
+    print("a")
 
 
 
